@@ -1,0 +1,8 @@
+- version control - what if we need to modify the API and that results in a breaking change? Might we add /v1/prefix to all our routes to start with?
+- Authentication - Unless this is a free/public API, we probably need some authentication - suggest JSON web tokens
+- etags - if we are building something that needs to scale
+- Refactoring! lots!
+- Create pacakges for several of these files, such as some JSON helpers, decorators, handlers and more
+- Testing...
+
+- remember to send back proper status codes, content headers etc
